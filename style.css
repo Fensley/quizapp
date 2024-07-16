@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+section {
+  width: 50%;
+}
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* min-width: 500px; */
+}
+.onefirst {
+  display: flex;
+  gap: 10px;
+}
+.first-row {
+  display: flex;
+  border: 1px solid;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: rgb(92, 177, 92);
+  color: white;
+  width: 100%;
+}
+.first-data {
+  display: flex;
+  gap: 40px;
+}
+.secondSecond {
+  display: flex;
+  gap: 7px;
+}
+/*  */
+.second-row {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: -20px;
+  background-color: white;
+}
+.varuis {
+  max-width: 400px;
+}
+.Question {
+  margin-bottom: 20px;
+  color: rgb(163, 161, 161);
+}
+.options {
+  margin: 20px 0;
+  color: rgb(163, 161, 161);
+}
+/*  */
+.third-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 8px;
+}
+.answerone {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  transition: all 0.3s;
+}
+.answerone:hover {
+  background-color: rgb(92, 177, 92);
+  color: white;
+  border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+button {
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.btn1 {
+  color: rgb(92, 177, 92);
+}
+.btn1:hover {
+  transition: all 0.3s;
+  background-color: rgb(92, 177, 92);
+  color: white;
+}
+.btn2 {
+  background-color: rgb(92, 177, 92);
+  color: white;
+}
+.btn2:hover {
+  transition: all 0.3s;
+  background-color: white;
+  color: rgb(92, 177, 92);
+}
+@media (max-width: 1043px) {
+  section {
+    width: 99%;
+  }
+  .second-row {
+    width: 80%;
+  }
+}
